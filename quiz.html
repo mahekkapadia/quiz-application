@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <!-- Link your CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+
+        <!-- Header -->
+        <div class="quiz-header">
+            <h1>Quiz App</h1>
+            <div id="timeTxt" class="timer">⏰10</div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-area">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+        <!-- Question Number -->
+        <p id="queNum" class="question-count">
+            Question 1 / 10
+        </p>
+
+        <!-- Question -->
+        <h2 id="question" class="question">
+            Question will appear here
+        </h2>
+
+        <!-- Options -->
+        <div id="option" class="options">
+
+        </div>
+
+        <!-- Next Button -->
+        <button id="nextBtn" class="btn primary-btn">
+            Next
+        </button>
+
+        <!-- Result -->
+        <div id="result" class="result"></div>
+
+    </div>
+
+    <!-- JS File -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
